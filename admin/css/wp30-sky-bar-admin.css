@@ -1,0 +1,91 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /**
+ * Plugin Name: WP Notification Bars by MyThemeShop
+ * Author URI: https://mythemeshop.com/
+ */
+.wp30skybar-tabs *, .wp30skybar-tabs *:before, .wp30skybar-tabs *:after { box-sizing: border-box }
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both }
+.clearfix { *zoom: 1  }
+.wp30skybar-tabs label, .wp30skybar-tabs p { font-size: 15px }
+.utm-text { min-width: 150px; float: left; }
+.wp30skybar-remove-utm-tag { position: absolute; right: 15px; top: 5px; }
+.wp30skybar-tabs p { color: #352245 }
+.wp30skybar-tabs input[type="text"]:not(.wp-color-picker), .wp30skybar-tabs input[type="number"], .wp30skybar-tabs select, .wp30skybar-tabs textarea { font-size: 15px; color: #aaaaaa; line-height: 22px; padding: 9px 20px; background: #ffffff; margin: 0; border: 1px solid #eaebec; outline: none!important; box-shadow: none!important; }
+.wp30skybar-tabs button, .wp30skybar-tabs .button:not(.wp-picker-clear, .wp30skybar-load-palette), .wp30skybar-tabs input[type="submit"] { font-size: 15px!important; padding: 9px 20px!important; height: auto!important; line-height: 22px!important; outline: none!important; }
+.wp30skybar-tabs button:focus, .wp30skybar-tabs .button:focus, .wp30skybar-tabs input[type="submit"]:focus { outline: none!important; box-shadow: none!important; }
+.wp30skybar-tabs input[type="text"], .wp30skybar-tabs input[type="number"], .wp30skybar-tabs select, .wp30skybar-tabs textarea { width: 100% }
+.wp30skybar-tabs select { height: auto }
+.wp30skybar-tabs textarea { width: 100%; max-width: 100%; height: 200px; }
+.wp30skybar-tabs input:focus, .wp30skybar-tabs select:focus, .wp30skybar-tabs textarea:focus, .select2-container--default.select2-container--focus .select2-selection--multiple { border-color: #a4e3fa; color: #666666; outline: none; }
+/*Tabs*/
+.wp30skybar-tabs { padding: 20px; font-size: 16px; }
+.wp30skybar-tabs-inner { background: #fdfdfd }
+.wp30skybar-tabs-nav { float: left; margin: 0; }
+#main-tabs-nav { width: 100%; padding-right: 0; }
+#main-tabs-wrap { }
+.wp30skybar-tabs-nav li, #conditions-selector li { float: left; display: inline-block; width: 100%; clear: left; margin: 0; }
+#main-tabs-nav li { width: 25%; display: block; clear: none; border-right: 1px solid #34aad5; }
+#main-tabs-nav li:last-child { border-right: 0 }
+.wp30skybar-tabs-nav li a, #conditions-selector li { float: left; width: 100%; background: #45bbe6; color: #fff; padding: 15px; font-size: 15px; text-decoration: none; outline: none !important; position: relative; }
+.wp30skybar-tabs-nav li a:hover, .wp30skybar-tabs-nav li a.active { background: #0074A2 }
+.wp30skybar-tabs-nav li a:focus { color: #fff; box-shadow: none; }
+.wp30skybar-tabs-nav li a.active { pointer-events: none }
+#sub-tabs-nav li a, #conditions-selector li { padding-right: 60px; font-weight: bold; background: #ffffff; border: 1px solid #eaebec; margin: -1px 0 0 -1px; color: #aaaaaa; position: relative; cursor: pointer; }
+#sub-tabs-nav li a.active, #sub-tabs-nav li a:hover, #conditions-selector li.active, #conditions-selector li:hover { background: #45BBE6; border-color: #45BBE6; border-left-color: #45bbe6; color: #fff; }
+#sub-tabs-nav li a.active:after, #conditions-selector li.active:after { content: ''; position: absolute; border-style: solid; border-width: 9px 0 9px 9px; border-color: rgba(0, 0, 0, 0) #45BBE6; display: block; width: 0; z-index: 1; right: -9px; top: 50%; margin-top: -9px; }
+#sub-tabs-nav li a.active:before, #conditions-selector li.active:before { content: ''; position: absolute; border-style: solid; border-width: 9px 0 9px 9px; border-color: rgba(0, 0, 0, 0) #45BBE6; display: block; width: 0; z-index: 0; right: -10px; top: 50%; margin-top: -9px; }
+#conditions-selector li { padding-left: 50px; padding-right: 25px; }
+.wp30skybar-tab-title { display: block }
+.wp30skybar-tab-title { font-size: 16px; font-weight: bold; text-transform: uppercase; text-align: center; }
+.wp30skybar-tab-title .dashicons { margin-right: 8px }
+/*tab content*/
+.wp30skybar-tabs-content { display: none; float: left; width: 100%; clear: both; }
+.wp30skybar-tabs-content.active { display: block }
+.wp30skybar-ab-slider-label { margin-bottom: 5px }
+.wp30skybar-tab-desc { border-width: 0 1px 0 1px; border-style: solid; border-color: #eaebec; background: #ffffff; line-height: 24px; color: #666666; padding: 30px 26px; }
+.wp30skybar-tab-options, #conditions-selector-wrap { padding: 30px; border: 1px solid #eaebec; }
+.wp30skybar-tab-options { padding-top: 10px; }
+#tab-type .wp30skybar-tab-options, #tab-conditions .wp30skybar-tab-options, #conditions-selector-wrap { padding: 0 }
+#tab-type .meta-tabs-wrap, #tab-conditions .meta-tabs-wrap { padding-top: 30px }
+#sub-tabs-wrap { overflow: hidden }
+.form-row { float: left; width: 100%; clear: both; margin: 15px 0; padding: 0; }
+#tab-type .wp30skybar-tab-options .form-row { padding: 0 30px }
+.form-label { float: left; width: 25%; color: #352245; padding-right: 20px; padding-top: 12px; }
+.form-label:hover { color: #666666 }
+.form-option { float: left; width: 75%; }
+.clear-image { margin: 0 10px; vertical-align: bottom; }
+#preview-bar { width: 100%; padding: 10px; height: auto; text-align: center; }
+.wp30skybar-tabs .wp-color-result, .wp30skybar-tabs .wp-picker-container .button { height: auto }
+.wp30skybar-tabs .wp-picker-container .button, .wp30skybar-tabs  .wp-color-result:after { line-height: 26px }
+.wp30skybar-tabs .wp-picker-container input[type=text].wp-color-picker { width: 70px }
+.wp30skybar-submit { pointer-events: none }
+.wp30skybar-tabs input[type=checkbox] { margin-top: 12px }
+/*conditions*/
+/*checkboxes*/
+#conditions-selector { float: left }
+#conditions-selector ul { margin: 0 }
+#conditions-selector .wp30skybar-check, #conditions-selector .wp30skybar-check:after { position: absolute; border-radius: 50%; }
+#conditions-selector .wp30skybar-check { top: 15px; left: 15px; width: 17px; height: 17px; border: 1px solid #cccccc; }
+#conditions-selector .wp30skybar-check:after { content: ""; top: 3px; left: 3px; width: 9px; height: 9px; background: #cccccc; }
+#conditions-selector .condition-checkbox.active .wp30skybar-check, #conditions-selector .condition-checkbox:hover .wp30skybar-check { border-color: #FFFFFF;}
+#conditions-selector .condition-checkbox.active .wp30skybar-check:after, #conditions-selector .condition-checkbox:hover .wp30skybar-check:after { background: #FFFFFF;}
+#conditions-selector ul li.disabled { color: #dcdcdc; pointer-events: none; }
+#conditions-selector .condition-checkbox.disabled .wp30skybar-check { border-color: #dcdcdc }
+#conditions-selector .condition-checkbox.disabled .wp30skybar-check:after { background: #dcdcdc }
+/*panels*/
+#conditions-panels { overflow: hidden }
+.wp30skybar-conditions-panel { padding: 15px; display: none; }
+.wp30skybar-conditions-panel.active { display: block }
+.wp30skybar-conditions-panel-title, .wp30skybar-conditions-panel-content { padding: 15px }
+.wp30skybar-conditions-panel-title { color: #666666; font-size: 18px; font-weight: 700; }
+.wp30skybar-conditions-panel-desc input[type="number"] { width: 90px }
+.wp30skybar-conditions-panel-opt { margin-top: 15px; padding-left: 15px; padding-right: 15px; }
+.text-center { text-align: center }
+.wp30skybar-colors-loader { margin-bottom: 12px }
+.wp30skybar-small-select { width: auto!important; padding: 5px!important; margin: -3px 5px 0 5px!important; }
+.wp30skybar-bar-select { max-width: 100% }

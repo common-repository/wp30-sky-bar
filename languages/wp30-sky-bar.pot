@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2017-11-11 14:52+0000\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"PO-Revision-Date: 2017-12-13 16:06+0000\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Project-Id-Version: WP30 Sky Bar\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: wordpress <terrytsang811@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: admin/class-wp30-sky-bar-settings.php:123
+msgid "WP30 - Starter Kit for WordPress"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:140
+msgid "WP30 - Sky Bar"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:154 
+#: admin/class-wp30-sky-bar-settings.php:398
+msgid "Settings"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:155
+msgid "Display Options"
+msgstr ""
+
+#. ID used to identify this section and with which to register options
+#: admin/class-wp30-sky-bar-settings.php:156 
+#: admin/class-wp30-sky-bar-settings.php:312
+msgid "Social Options"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:199
+msgid "Select which areas of content you wish to display."
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:211
+msgid "Provide the URL to the social networks you'd like to display."
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:223
+msgid "The display setting for the WP30 - Sky Bar"
+msgstr ""
+
+#. ID used to identify this section and with which to register options
+#: admin/class-wp30-sky-bar-settings.php:244
+msgid "Display Position"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: admin/class-wp30-sky-bar-settings.php:252
+msgid "Left"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: admin/class-wp30-sky-bar-settings.php:257
+msgid "Activate this setting to display the link on left side."
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:263
+msgid "Right"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:268
+msgid "Activate this setting to display the link on right side."
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:405
+msgid "Text Format"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:413
+msgid "URL Link"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:421
+msgid "Email"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:429
+msgid "Position"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:629
+msgid "Select a time option..."
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:630
+msgid "Never"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:631
+msgid "Sometimes"
+msgstr ""
+
+#: admin/class-wp30-sky-bar-settings.php:632
+msgid "Always"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP30 Sky Bar"
+msgstr ""
+
+#. Description of the plugin
+msgid "A footer option for text label with social media links"
+msgstr ""
+
+#. URI of the plugin
+msgid "www.terrytsang.com/wp30/sky-bar"
+msgstr ""
+
+#. Author of the plugin
+msgid "Terry Tsang"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "www.terrytsang.com"
+msgstr ""

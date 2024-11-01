@@ -1,0 +1,41 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.wp30skybar div, .wp30skybar span, .wp30skybar h1, .wp30skybar h2, .wp30skybar h3, .wp30skybar h4, .wp30skybar h5, .wp30skybar h6, .wp30skybar p, .wp30skybar blockquote, .wp30skybar pre, .wp30skybar a, .wp30skybar img, .wp30skybar dl, .wp30skybar dt, .wp30skybar dd, .wp30skybar ol, .wp30skybar ul, .wp30skybar li, .wp30skybar fieldset, .wp30skybar form, .wp30skybar label, .wp30skybar legend, .wp30skybar table, .wp30skybar caption, .wp30skybar tbody, .wp30skybar tfoot, .wp30skybar thead, .wp30skybar tr, .wp30skybar th, .wp30skybar td, .wp30skybar article, .wp30skybar aside, .wp30skybar details, .wp30skybar footer, .wp30skybar header, .wp30skybar menu, .wp30skybar meter, .wp30skybar nav, .wp30skybar output, .wp30skybar progress, .wp30skybar section, .wp30skybar summary { border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; margin: 0; padding: 0; }
+.wp30skybar { line-height: 1 }
+.wp30skybar article, .wp30skybar aside, .wp30skybar dialog, .wp30skybar figure, .wp30skybar footer, .wp30skybar header, .wp30skybar nav, .wp30skybar section, .wp30skybar blockquote { display: block }
+.wp30skybar nav ul { list-style: none }
+.wp30skybar ol { list-style: decimal }
+.wp30skybar ul { list-style: disc }
+.wp30skybar ul ul { list-style: circle }
+.wp30skybar blockquote, .wp30skybar q { quotes: none }
+.wp30skybar blockquote:before, .wp30skybar blockquote:after, .wp30skybar q:before, .wp30skybar q:after { content: none }
+.wp30skybar table { border-collapse: collapse; border-spacing: 0; }
+.wp30skybar input, .wp30skybar select, .wp30skybar a img { vertical-align: middle }
+.wp30skybar, .wp30skybar *, .wp30skybar *:before, .wp30skybar *:after { box-sizing: border-box; }
+.wp30skybar .screen-reader-text { clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); overflow: hidden; position: absolute; max-height: 1px; }
+.wp30skybar { text-align: center; position: fixed; top: 0; width: 100%; z-index: 9999; transition: all 0.25s linear; -webkit-backface-visibility: hidden; min-height: 30px; }
+.wp30skybar .wp30skybar-container { position: relative; margin-right: auto; margin-left: auto; max-width: 100%; width: 1000px; padding: 10px 60px; line-height: 1.4 }
+.admin-bar .wp30skybar.wp30skybar-fixed.wp30skybar-top, #wp-toolbar .wp30skybar.wp30skybar-fixed.wp30skybar-top { top: 32px }
+.wp30skybar-container-outer { position: relative }
+.wp30skybar-clearfix:before, .wp30skybar-clearfix:after { content: " "; display: table; }
+.wp30skybar-clearfix:after { clear: both }
+.wp30skybar-clearfix { *zoom: 1  }
+.wp30skybar .wp30skybar-show { padding: 10px }
+.wp30skybar-hide, .wp30skybar-show { position: absolute; right: 20px; background-color: inherit; color: #fff; font-size: 18px!important; line-height: 50px; text-align: center; box-sizing: initial; line-height: 1;}
+.wp30skybar-top .wp30skybar-show { bottom: 1px;}
+.wp30skybar-hide { top: 50%; background: transparent; margin-top: -9px!important;}
+.wp30skybar-hide span { display: inline-block; -webkit-transform: rotate(45deg) translate3d(0,0,0); transform: rotate(45deg) translate3d(0,0,0); }
+.wp30skybar-hidden { transition: -webkit-transform ease 0.3s; transition: transform ease 0.3s; }
+.wp30skybar-hidden.wp30skybar-top { -webkit-transform: translateY(-100%) translate3d(0,0,0); transform: translateY(-100%) translate3d(0,0,0); }
+.wp30skybar-hidden .wp30skybar-show { transition: -webkit-transform ease 0.3s; transition: transform ease 0.3s; }
+.wp30skybar-hidden.wp30skybar-top .wp30skybar-show { -webkit-transform: translateY(100%) translate3d(0,0,0); transform: translateY(100%) translate3d(0,0,0); }
+.wp30skybar-shown { transition: -webkit-transform ease 0.3s; transition: transform ease 0.3s; -webkit-transform: translateY(0%) translate3d(0,0,0); transform: translateY(0%) translate3d(0,0,0); }
+.wp30skybar-hidden .wp30skybar-hide, .wp30skybar-shown .wp30skybar-show { display: none }
+body.has-wp30skybar { transition: padding-top ease 0.3s, padding-bottom ease 0.3s; width: 100%; height: 100%; float: left; position: relative; box-sizing: border-box; /*overflow: hidden;*/}
+.wp30skybar a { text-decoration: none; color: inherit; }
+.wp30skybar .wp30skybar-text, .wp30skybar .wp30skybar-button, .wp30skybar .wp30skybar-text, .wp30skybar input { margin: .2em .5em }
+.wp30skybar input { padding: 6px 10px; font-size: 12px; border-radius: 3px; color: #666; border: 0; font-family: inherit; }
+.wp30skybar .wp30skybar-button { display: inline-block; padding: 6px 10px; font-size: 12px; border-radius: 3px; color: #fff!important; outline: 0; border: 0; cursor: pointer; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);}
+.wp30skybar .wp30skybar-message { display: block }
